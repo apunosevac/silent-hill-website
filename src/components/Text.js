@@ -1,9 +1,9 @@
 import '../style/style.css';
 
-export default function Text() {
+export default function Text( {text} ) {
   return (
-    <div className='list-container'>
-      <h1>Work in progress</h1>
+    <div>
+      <p>{text}</p>
     </div>
   );
 }
