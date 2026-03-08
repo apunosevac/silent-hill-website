@@ -21,6 +21,44 @@ body {
     gap: 2rem;
 }
 
+.article {
+    background-color: #373837;
+    padding-left: 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 1rem;
+    color: white;
+}
+
+.article:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.articleImg {
+    width: 20rem;
+    margin-left: auto;
+    height: auto;
+    float: right;
+}
+
+
+.article-container {
+    background-color: #222423;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: grid;
+    gap: 2rem;
+    width: auto;
+}
 
 .list-container {
     background-color: #222423;
@@ -128,7 +166,6 @@ body {
     align-items: center;
     gap: 2rem;
     padding: 0 1rem;
-
 }
 
 .nav a {
